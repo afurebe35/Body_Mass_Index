@@ -1,0 +1,46 @@
++*In[1]:*+
+[source, ipython3]
+----
+x = int(input("Kilonuzu giriniz(kg): "))
+print(x)
+
+y = float(input("Boyunuzu giriniz(m): "))
+print(y)
+
+
+if x /(y**2) < 18.5:
+     print("İdeal kilonun altındasınız!")
+
+elif 18.5 < x /(y**2) < 24.9:
+     print("İdeal kilodasınız!")
+
+elif 25 < x /(y**2) < 29.9:
+     print("İdeal kilonun üstündesiniz!")
+
+elif 30 < x /(y**2) < 39.9:
+     print("Obezsiniz!")
+
+else:
+     print("Morbid Obezsiniz!")
+
+
+print("Vücut Kitle Endeksiniz Başarıyla Ölçülmüştür! Sağlıklı Günler Dileriz!")
+----
+
+
++*Out[1]:*+
+----
+Kilonuzu giriniz(kg): 23
+23
+Boyunuzu giriniz(m): 1.54
+1.54
+İdeal kilonun altındasınız!
+Vücut Kitle Endeksiniz Başarıyla Ölçülmüştür! Sağlıklı Günler Dileriz!
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
